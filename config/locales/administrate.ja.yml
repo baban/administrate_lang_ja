@@ -1,0 +1,23 @@
+---
+ja:
+  administrate:
+    actions:
+      confirm: 本当にいいですか?
+      destroy: 破棄
+      edit: 編集
+      show: 表示
+    controller:
+      create:
+        success: "%{resource} のデータは作成完了しました。"
+      destroy:
+        success: "%{resource} のデータは削除されました。"
+      update:
+        success: "%{resource} のデータの更新が完了しました。"
+    fields:
+      has_many:
+        more: %{count} / %{total_count} を表示中
+        none: データはありません。
+      polymorphic:
+        not_supported: Polymorphic関連のフォームはまだ未実装です。
+      has_one:
+        not_supported: HasOneの関連のフォームはまだ未実装です。
